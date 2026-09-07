@@ -43,6 +43,6 @@ public class practice {
         System.out.println("Sum of array is : "+ sumOfArray(arr));
         sortArray(arr);
         display(arr);
-
+        sc.close();
     }
 }

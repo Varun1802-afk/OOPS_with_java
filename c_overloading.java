@@ -1,5 +1,5 @@
-// Constructor overloading is the technique of create multiple constructors in a class with different parameter
 
+// Constructor overloading is the technique of create multiple constructors in a class with different parameter
 public class c_overloading{
     static int a,b,c;
     c_overloading(){
@@ -26,7 +26,6 @@ public class c_overloading{
         System.out.println(a+" "+b);
         c_overloading obj4 = new c_overloading(10,20,30);
         System.out.println(a+" "+b+" "+c);
-
     }
 
 }
