@@ -13,7 +13,18 @@ class Book{
         this.isbn = isbn;
         bookCount++;
     }
-
+    void setTitle(String title){
+        this.title = title;
+    }
+    void setAuthor(String author){
+        this.author = author;
+    }
+    void setPrice(double price){
+        this.price = price;
+    }
+    void setIsbn(String isbn){
+        this.isbn = isbn;
+    }
     String getTitle(){
         return this.title;
     }
