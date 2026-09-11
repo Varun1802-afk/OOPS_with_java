@@ -6,7 +6,7 @@ interface Vehicle{
 }
 
 class Car implements Vehicle{
-    public void start(){
+    public  void start(){
         System.out.println("Car started.");
     }
 }
