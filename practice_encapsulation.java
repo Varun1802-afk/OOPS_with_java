@@ -19,10 +19,10 @@ class Student{
 public class practice_encapsulation {
     public static void main(String[] args) {
         Student obj = new Student();
-
+        
         obj.setName("Varun");
         obj.setAge(20);
-        obj.getBoth();
+        obj.getBotho();
     }
     
 }

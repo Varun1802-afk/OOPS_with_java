@@ -15,6 +15,7 @@ class Animal {
 }
 
 class Dog extends Animal {
+
     Dog(String name) {
         super(name);
     }
@@ -38,7 +39,7 @@ class Cat extends Animal {
 
 public class AnimalProgram {
     public static void main(String[] args) {
-        Dog d = new Dog("Bruno");
+        Dog d = new Dog("bruno");
         Cat c = new Cat("Kitty");
 
         d.display();
