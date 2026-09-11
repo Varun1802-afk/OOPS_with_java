@@ -22,7 +22,7 @@ public class practice_encapsulation {
         
         obj.setName("Varun");
         obj.setAge(20);
-        obj.getBotho();
+        obj.getBoth();
     }
     
 }
