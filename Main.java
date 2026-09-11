@@ -1,4 +1,4 @@
-package src;
+// package src;
 // using instance
 import java.util.*;
 
@@ -41,6 +41,6 @@ class Main{
         int r = sc.nextInt();
         Circle cir = new Circle(r);
         cir.area();
-    
+        sc.close();
     }
 }

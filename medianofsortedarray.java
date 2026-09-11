@@ -1,4 +1,4 @@
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class medianofsortedarray {
     // public static int[] findMedianSortedArrays(int[] nums1, int[] nums2) {

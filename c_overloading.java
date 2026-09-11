@@ -6,16 +6,16 @@ public class c_overloading{
         System.out.println("Default");
     }
     c_overloading(int a){
-        this.a = a;
+        c_overloading.a = a;
     }
     c_overloading(int a,int b){
-        this.a = a;
-        this.b = b;
+        c_overloading.a = a;
+        c_overloading.b = b;
     }
     c_overloading(int a,int b,int c){
-        this.a = a;
-        this.b = b;
-        this.c = c;
+        c_overloading.a = a;
+        c_overloading.b = b;
+        c_overloading.c = c;
     }
 
     public static void main(String[] args) {
